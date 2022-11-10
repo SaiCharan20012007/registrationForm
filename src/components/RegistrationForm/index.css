@@ -1,0 +1,77 @@
+/* Write your CSS code here */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-family: Roboto;
+  color: #ea580c;
+}
+label {
+  display: block;
+  color: #475569;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.inputEl {
+  height: 40px;
+  width: 300px;
+  margin-top: 5px;
+  font-size: 17px;
+  padding: 7px;
+  border-color: #cbd2d9;
+  border-radius: 7px;
+  border-width: 2px;
+  outline: none;
+}
+.inputEl2 {
+  height: 40px;
+  width: 300px;
+  margin-top: 5px;
+  font-size: 17px;
+  border-style: solid;
+  padding: 7px;
+  border-color: #ff0b37;
+  border-radius: 7px;
+  border-width: 2px;
+  background-color: #fef2f4;
+  outline: none;
+}
+.errorMsg {
+  color: #ff0b37;
+  margin-top: 0px;
+}
+.submit-btn {
+  background-color: #ea580c;
+  padding: 10px;
+  color: white;
+  width: 300px;
+  border-width: 0px;
+  border-radius: 7px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.submit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 100px;
+}
